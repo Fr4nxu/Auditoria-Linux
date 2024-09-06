@@ -36,6 +36,23 @@ Este script debe ser ejecutado en las siguientes circunstancias:
 - **Tras actualizaciones críticas**: Cada vez que el sistema reciba parches de seguridad o actualizaciones importantes, es necesario revisar que no se hayan introducido nuevos problemas de seguridad.
 - **Después de cambios importantes en la infraestructura**: Si se han añadido nuevos servicios o cambiado configuraciones críticas, se recomienda ejecutar el script para garantizar que el sistema sigue siendo seguro.
 
+## Evaluación de Cumplimiento Normativo
+
+Lynis está preparado para auditar y verificar el cumplimiento de varios estándares de seguridad, como **CIS (Center for Internet Security)**, **ISO27001**, **HIPAA**, **PCI-DSS**, entre otros. Al implementar un perfil de auditoría de seguridad, como el perfil **CIS**, Lynis compara la configuración del sistema con los requisitos del estándar, proporcionando un informe con sugerencias para mejorar la seguridad.
+
+## Análisis de Hardening
+
+Lynis ofrece recomendaciones sobre cómo fortalecer (_harden_) el sistema mediante ajustes de configuración o desactivación de servicios innecesarios. Esto ayuda a reducir la superficie de ataque y mejorar la resiliencia frente a ciberataques.
+
+## Generación de Informes
+
+Tras la ejecución de una auditoría, Lynis genera un informe detallado que incluye:
+
+- **Resultados por categoría**: Identificación de puntos débiles en cada área.
+- **Puntuación de seguridad**: Basado en el número y severidad de los problemas detectados.
+- **Recomendaciones**: Acciones sugeridas para mitigar riesgos.
+
+
 ## Uso
 
 1. **Clona este repositorio** o descarga el script:
