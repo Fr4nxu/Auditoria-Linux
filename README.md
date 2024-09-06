@@ -64,9 +64,4 @@ Este script debe ser ejecutado en las siguientes circunstancias:
 
 5. **Resultados**: El script ejecutará un análisis de seguridad y generará un informe detallado de la auditoría del sistema.
 
-## Ejemplo
 
-Si el script detecta que **Lynis** no está instalado, lo instalará automáticamente:
-
-```bash
-lynis no está instalado, instalando ...
